@@ -7,6 +7,8 @@ pommepatate is my very first portfolio, designed with simplicity and speed in mi
 
 > I'm not a designer, and I'm eagerly looking forward to discovering your talents in this field.
 
+<br />
+
 ## In this portfolio, you'll find:
 
 - Reusable components that simplify the creation of new pages and functionalities.
