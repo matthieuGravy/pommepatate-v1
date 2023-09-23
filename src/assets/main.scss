@@ -1,0 +1,21 @@
+@import "./base.scss";
+
+body {
+  box-sizing: border-box;
+  display: grid;
+  display: grid;
+  grid:
+    "." auto
+    "." auto
+    "." auto
+    / 1fr;
+  header {
+    width: 100%;
+  }
+  .not-found,
+  main {
+    max-width: calc(1280px / 1.5);
+    margin: auto;
+    min-height: 100vh;
+  }
+}

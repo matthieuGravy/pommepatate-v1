@@ -1,0 +1,78 @@
+# Dossiers et fichiers générés par Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dossiers et fichiers générés par Vue.js
+/dist/
+/*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Fichiers de sauvegarde et fichiers compilés Sass
+*.sass-cache/
+*.map
+
+# Dossiers et fichiers générés par l'éditeur de code
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tgz
+*.zip
+
+# Fichiers de configuration spécifiques aux utilisateurs
+/.editorconfig
+/.env
+/.eslintrc.js
+/.env.local
+
+# Logs et fichiers temporaires
+/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.swp
+.DS_Store
+
+# Fichiers de configuration ESLint générés
+.eslintcache
+
+# Dossiers de build
+/dist/
+/.nuxt/
+/static/
+
+# Dossiers de sauvegarde
+.backup*/
+
+# Dossiers et fichiers de tests
+/coverage/
+/itcoverage/
+/test/
+
+# Dépendances locales (pour la gestion des dépendances monorepos)
+/packages/*/node_modules/
+
+# Dépendances d'édition de code
+/.yarn/
+
+# Yarn 2 PnP file
+.pnp.*
+
+# Vue.js 3 -- Vite
+/node_modules/@vitejs/
+.pnp.js
+
+# Cache
+.cache/
+
+# Directory for nuxt.js
+.nuxt

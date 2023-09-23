@@ -1,0 +1,80 @@
+:root {
+  --color-red: #ff3131;
+  --color-black: #071013;
+  --color-pink: #c45baa;
+  --color-green: #4da167;
+  --color-yellow: #fcff6c;
+  --color-blue: #7f7eff;
+}
+:root {
+  --pink-boy: #c95c95;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+//transitions
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(300px);
+}
+
+//classes supplémentaires
+.jaune-bg {
+  background-color: var(--color-yellow);
+}
+.jaune-color {
+  color: var(--color-yellow);
+}
+.vert-bg {
+  background-color: var(--color-green);
+}
+.vert-color {
+  color: var(--color-green);
+}
+.rose-color {
+  color: var(--color-pink);
+}
+.rose-bg {
+  background-color: var(--color-pink);
+}
+.rouge-color {
+  color: var(--color-red);
+}
+.rouge-bg {
+  background-color: var(--color-red);
+}
+.bleu-color {
+  color: var(--color-blue);
+}
+.bleu-bg {
+  background-color: var(--color-blue);
+}
+.black-bg {
+  background-color: var(--color-black);
+}
+.pink-boy-bg {
+  background-color: var(--pink-boy);
+}
+.pink-boy-color {
+  color: var(--pink-boy);
+}
+
+//classes
+.site {
+  max-width: 20rem;
+}
+
+footer {
+  font-size: 0.7rem;
+}
