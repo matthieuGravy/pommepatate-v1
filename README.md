@@ -21,4 +21,45 @@ Pommepatate is my very first portfolio, designed with simplicity and speed in mi
 
 > Created by _Matthieu Gravy_
 > > <a href="https://www.linkedin.com/in/matthieugravy/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" title="linkedin"/></a>
+
 <br/>
+<br/>
+<br/>
+
+<details>
+<summary> Usage Recommendations 
+</summary>
+
+<h4>Recommended IDE Setup</h4>
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+<h4>Customize configuration</h4> 
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+### Project Setup
+
+```sh
+npm install
+```
+
+<h4>Compile and Hot-Reload for Development</h4> 
+
+```sh
+npm run dev
+```
+
+<h4>Compile and Minify for Production</h4> 
+
+```sh
+npm run build
+```
+
+<h4>Lint with [ESLint](https://eslint.org/)</h4> 
+
+```sh
+npm run lint
+```
+</details>
+
