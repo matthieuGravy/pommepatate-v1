@@ -3,7 +3,7 @@
 
 <br />
 
-pommepatate is my very first portfolio, designed with simplicity and speed in mind, aiming not to deter recruiters during their visit to the site. Although I haven't yet finalized version 2, its creation and integration have been extremely swift, largely thanks to the use of high-performance components included in the project. It's a rewarding experience to think that I can quickly put up a CV or my creations online. Other projects I've undertaken may perhaps inspire you for its enhancement.
+Pommepatate is my very first portfolio, designed with simplicity and speed in mind, aiming not to deter recruiters during their visit to the site. Although I haven't yet finalized version 2, its creation and integration have been extremely swift, largely thanks to the use of high-performance components included in the project. It's a rewarding experience to think that I can quickly put up a CV or my creations online. Other projects I've undertaken may perhaps inspire you for its enhancement.
 
 > I'm not a designer, and I'm eagerly looking forward to discovering your talents in this field.
 
