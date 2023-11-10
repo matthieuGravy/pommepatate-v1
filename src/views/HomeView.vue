@@ -1,20 +1,4 @@
-<script>
-import Loading from "../components/Loading.vue";
-
-export default {
-  components: { Loading },
-  data() {
-    return {
-      isLoading: true, // initialiser la variable de chargement à true
-    };
-  },
-  mounted() {
-    window.addEventListener("load", () => {
-      this.isLoading = false; // mettre la variable à false pour masquer l'écran de chargement
-    });
-  },
-};
-</script>
+<script></script>
 
 <template>
   <div v-if="isLoading">
