@@ -22,30 +22,13 @@ export default {
     <h1 class="accentPrincipal ps-5 py-3">About</h1>
     <article class="px-2 pt-4">
       <p>
-        Observing each company I worked for, I realized that technological
-        solutions could often be the key to solving problems and optimizing
-        processes. My main interest was in making tangible improvements, whether
-        by optimizing a job or solving problems. My journey has shown me that
-        even modest experiences can be a stepping stone to a promising future.
+         I created this portfolio fairly quickly, about 1 year ago. At the time, I still struggled with certain concepts in JavaScript, such as objects, iterations, and parameters. Instead of giving up, I decided to keep pushing forward. I chose to explore a framework, and in the end, it greatly helped me to better understand and adapt for the future.
       </p>
-      <p>
-        However, it wasn't always easy to share or make others understand my
-        ideas. Alongside my job, I continued exploring web development, taking
-        online courses, and working on personal projects. This eventually led me
-        to professionalize myself through the bootcamp provided by BeCode.
-      </p>
-      <p>
-        Today, my goal is to combine my web development skills with my passion
-        for process optimization. I am constantly seeking innovative ways to
-        address professional challenges and contribute positively to every
-        opportunity that comes my way.
-      </p>
-      <p>
-        Today, my goal is to combine my web development skills with my passion
-        for process optimization. I am constantly seeking innovative ways to
-        address professional challenges and contribute positively to every
-        opportunity that comes my way.
-      </p>
+      <p>Currently, I'm enrolled in a bootcamp at BeCode, working on a new portfolio, this time in React and with a more comprehensive approach. I'm excited to share my progress and demonstrate how my skills have evolved since I created my first portfolio a year ago.</p>
+      <br />
+      <p class="pb-2">Feel free to follow me on GitHub: <a title="GitHubb of Matthieu Gravy" target="_parent" href="https://github.com/matthieuGravy">My Profile</a></p>
+
+    
     </article>
     <section class="cv mt-5">
       <div class="naveur">
@@ -65,7 +48,7 @@ export default {
               target="_blank"
               href="https://www.linkedin.com/in/matthieugravy/"
               class="btn btn-info d-inline-flex align-items-center"
-              >Contactez-moi
+              >Contacte me
               <i class="fa-brands fa-linkedin ms-2"></i>
             </a>
           </div>

@@ -5,21 +5,32 @@
     <Loading />
   </div>
   <main class="home" v-else>
-    <h1 class="accentPrincipal ps-5 py-3">Home</h1>
-    <img
-      src="../images/pompat.svg"
-      class="img-fluid mx-auto d-block my-5"
-      alt="..."
-    />
+    <h1 class="accentPrincipal ps-5 py-3">Hello</h1>
     <section class="presentation mx-3">
-      <h2 class="pb-3">Découvrez mon portfolio d'intégrateur web Vue 3</h2>
       <p>
-        Bienvenue sur Pomme Patate, où je partage ma passion pour l'intégration
-        web. Explorez mon portfolio, une collection de mes créations numériques,
-        où chaque ligne de code est soigneusement conçue pour créer des
-        expériences utilisateur attrayantes et engageantes. J'espère que vous
-        apprécierez mon travail créatif en ligne et que mes réalisations vous
-        inspireront. Merci de prendre le temps de visiter mon portfolio !
+        Observing each company I worked for, I realized that technological
+        solutions could often be the key to solving problems and optimizing
+        processes. My main interest was in making tangible improvements, whether
+        by optimizing a job or solving problems. My journey has shown me that
+        even modest experiences can be a stepping stone to a promising future.
+      </p>
+      <p>
+        However, it wasn't always easy to share or make others understand my
+        ideas. Alongside my job, I continued exploring web development, taking
+        online courses, and working on personal projects. This eventually led me
+        to professionalize myself through the bootcamp provided by BeCode.
+      </p>
+      <p>
+        Today, my goal is to combine my web development skills with my passion
+        for process optimization. I am constantly seeking innovative ways to
+        address professional challenges and contribute positively to every
+        opportunity that comes my way.
+      </p>
+      <p>
+        Today, my goal is to combine my web development skills with my passion
+        for process optimization. I am constantly seeking innovative ways to
+        address professional challenges and contribute positively to every
+        opportunity that comes my way.
       </p>
     </section>
   </main>

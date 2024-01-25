@@ -41,7 +41,7 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="container text-center">
       <p class="text-white">
         No Cookies used on this website. <br />
-        2023 <i class="fa-regular fa-copyright"></i> Pomme Patate - All rights
+        2024 <i class="fa-regular fa-copyright"></i> Matthieu Gravy - All rights
         reserved.<br />
         Developped by
         <a class="rose-color" href="https://www.linkedin.com/in/matthieugravy/"
