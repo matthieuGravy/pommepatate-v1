@@ -8,6 +8,9 @@
     <h1 class="accentPrincipal ps-5 py-3">Hello</h1>
     <section class="presentation mx-3">
       <p>
+        My name is Matthieu, and despite starting my career in the security sector at the age of 20 without a diploma, I chose to resume my studies to obtain a CESS. During my e-business studies, I had an introduction to web development, which proved to be a rewarding experience. I later progressed in a Pizza Hut franchise, ultimately becoming a team leader with managerial responsibilities.
+      </p>
+      <p>
         Observing each company I worked for, I realized that technological
         solutions could often be the key to solving problems and optimizing
         processes. My main interest was in making tangible improvements, whether
@@ -26,12 +29,7 @@
         address professional challenges and contribute positively to every
         opportunity that comes my way.
       </p>
-      <p>
-        Today, my goal is to combine my web development skills with my passion
-        for process optimization. I am constantly seeking innovative ways to
-        address professional challenges and contribute positively to every
-        opportunity that comes my way.
-      </p>
+     
     </section>
   </main>
 </template>
