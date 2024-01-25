@@ -4,51 +4,64 @@ export default {
   data() {
     return {
       langages: [
-        { nom: "HTML 5", pourcentage: "95%" },
-        { nom: "PUG", pourcentage: "50%" },
-        { nom: "EJS", pourcentage: "50%" },
-        { nom: "CSS", pourcentage: "80%" },
-        { nom: "Sass", pourcentage: "80%" },
-        { nom: "Bootstrap 5", pourcentage: "50%" },
+        { nom: "HTML 5", pourcentage: "good" },
+        { nom: "PUG", pourcentage: "notions" },
+        { nom: "EJS", pourcentage: "notions" },
+        { nom: "CSS3", pourcentage: "good" },
+        { nom: "Sass", pourcentage: "good" },
+        { nom: "TailwindCSS", pourcentage: "good" },
+        {nom :"Daisy UI", pourcentage: "good"},
+        { nom: "Bootstrap 5", pourcentage: "good" },
       ],
       programmations: [
-        { nom: "JavaScript", pourcentage: "50%" },
-        { nom: "VueJS 3", pourcentage: "40%" },
-        { nom: "NodeJS", pourcentage: "30%" },
-        { nom: "Express", pourcentage: "30%" },
-        { nom: "TypeScript", pourcentage: "notions" },
+        { nom: "JavaScript", pourcentage: "junior" },
+        { nom: "TypeScript", pourcentage: "learning" },
+        { nom: "ReactJS", pourcentage: "junior" },
+        { nom: "VueJS 3", pourcentage: "junior" },
+        { nom: "NodeJS", pourcentage: "junior" },
+        { nom: "ExpressJS", pourcentage: "junior" },
         { nom: "php", pourcentage: "notions" },
       ],
       BDS: [
-        { nom: "MongoDB", pourcentage: "20%" },
-        { nom: "Compass", pourcentage: "20%" },
+        { nom: "MongoDB", pourcentage: "notions" },
         { nom: "MySQL", pourcentage: "notions" },
       ],
       Tools: [
         { nom: "npm", pourcentage: "80%" },
-        { nom: "Gitlab", pourcentage: "70%" },
-        { nom: "Babel", pourcentage: "80%" },
-        { nom: "Webpack", pourcentage: "50%" },
+        { nom: "Git", pourcentage: "70%" },
         { nom: "Vite", pourcentage: "50%" },
         { nom: "VScode", pourcentage: "70%" },
         { nom: "Ubuntu", pourcentage: "40%" },
         { nom: "Trello", pourcentage: "" },
         { nom: "Canva", pourcentage: "" },
+        { nom: "Compass", pourcentage: "" },
+        { nom: "Mongoose", pourcentage: "" },
+        { nom: "Postman", pourcentage: "" },
+        { nom: "Insomnia", pourcentage: "" },
+        { nom: "MongoDB Atlas", pourcentage: "" },
+        { nom: "OVH Cloud", pourcentage: "" },
+        { nom: "Netlify", pourcentage: "" },
+        { nom: "Github", pourcentage: "" },
+        {nom: "Gitlab", pourcentage: ""},
+        { nom: "Figma", pourcentage: "" },
       ],
       Superficielles: [
-        { nom: "Wordpress", pourcentage: "notions" },
-        { nom: "Elementor", pourcentage: "notions" },
-        { nom: "Magento", pourcentage: "notions" },
-        { nom: "Figma", pourcentage: "notions" },
+        { nom: "Chartjs"},
+        { nom: "Gsap"},
+        { nom: "Axios" },
+        { nom: "Redux" },
+        { nom : "Motions Framer"},
+        { nom: "React Router"},
+        { nom: "Vue Router"},
       ],
     };
   },
 };
 </script>
 <template>
-  <h2 class="mb-3 py-3 ps-5 accentSkills">Compétences en programmation web</h2>
+  <h2 class="mb-3 py-3 ps-5 accentSkills">My Skills</h2>
   <article class="mb-4 ms-3">
-    <h3 class="ms-4 mb-3">Languages de programmation et framework</h3>
+    <h3 class="ms-4 mb-3">Programming Language </h3>
     <div
       class="ms-4 d-inline-flex"
       v-for="programmation in programmations"
@@ -61,7 +74,7 @@ export default {
     </div>
   </article>
   <article class="mb-4 ms-3">
-    <h3 class="ms-4 mb-3">Language de balisage et de style</h3>
+    <h3 class="ms-4 mb-3">Markup and Style Language</h3>
     <div
       class="ms-4 d-inline-flex"
       v-for="langage in langages"
@@ -73,7 +86,7 @@ export default {
     </div>
   </article>
   <article class="mb-4 ms-3">
-    <h3 class="mb-3 ms-4">Base de données</h3>
+    <h3 class="mb-3 ms-4">Databases</h3>
     <div class="ms-4 d-inline-flex" v-for="BD in BDS" :key="BD.nom">
       <p class="badge rose-bg py-3">
         {{ BD.nom }}<span class="ms-2">{{ BD.pourcentage }}</span>
@@ -81,15 +94,15 @@ export default {
     </div>
   </article>
   <article class="mb-4 ms-3">
-    <h3 class="mb-3 ms-4">Boîte à outils</h3>
+    <h3 class="mb-3 ms-4">Tools</h3>
     <div class="ms-4 d-inline-flex" v-for="Tool in Tools" :key="Tool.nom">
       <p class="badge rouge-bg rouge py-3">
-        {{ Tool.nom }}<span class="ms-2">{{ Tool.pourcentage }}</span>
+        {{ Tool.nom }}
       </p>
     </div>
   </article>
   <article class="mb-4 ms-3">
-    <h3 class="mb-3 ms-4">Notions</h3>
+    <h3 class="mb-3 ms-4">Library</h3>
     <div
       class="ms-4 d-inline-flex"
       v-for="Superficielle in Superficielles"
@@ -97,7 +110,7 @@ export default {
     >
       <p class="badge bleu-bg py-3">
         {{ Superficielle.nom
-        }}<span class="ms-2">{{ Superficielle.pourcentage }}</span>
+        }}
       </p>
     </div>
   </article>

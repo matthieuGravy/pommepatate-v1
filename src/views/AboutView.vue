@@ -22,31 +22,30 @@ export default {
     <h1 class="accentPrincipal ps-5 py-3">About</h1>
     <article class="px-2 pt-4">
       <p>
-        Passionné par les blagues nulles et les jeux de mots, je suis un
-        <span class="fw-semibold rose-color">développeur web autonome</span> qui
-        valorise l'apprentissage continu. Fort d'une expérience professionnelle
-        diversifiée, j'ai acquis des
-        <span class="fw-semibold rose-color"
-          >compétences solides en organisation et en autonomie</span
-        >. Bien que certaines expériences aient été frustrantes, elles m'ont
-        permis de développer ma détermination à atteindre mes ambitions.
+        Observing each company I worked for, I realized that technological
+        solutions could often be the key to solving problems and optimizing
+        processes. My main interest was in making tangible improvements, whether
+        by optimizing a job or solving problems. My journey has shown me that
+        even modest experiences can be a stepping stone to a promising future.
       </p>
       <p>
-        Grâce à ma curiosité et à ma soif de dépassement, j'ai découvert une
-        passion pour le développement web. Je suis prêt à offrir des solutions
-        personnalisées pour répondre à vos besoins et à fournir un
-        <span class="fw-semibold rose-color">service de qualité</span> avec mon
-        <span class="fw-semibold rose-color"
-          >expertise en développement web</span
-        >. Que ce soit pour rejoindre une
-        <span class="fw-semibold rose-color">équipe IT dynamique</span> ou pour
-        aider nos clients à atteindre leurs objectifs en ligne, je suis
-        enthousiaste à l'idée de
-        <span class="fw-semibold rose-color"
-          >relever les défis avec détermination</span
-        >.
+        However, it wasn't always easy to share or make others understand my
+        ideas. Alongside my job, I continued exploring web development, taking
+        online courses, and working on personal projects. This eventually led me
+        to professionalize myself through the bootcamp provided by BeCode.
       </p>
-      <p>Bienvenue sur mon portfolio !</p>
+      <p>
+        Today, my goal is to combine my web development skills with my passion
+        for process optimization. I am constantly seeking innovative ways to
+        address professional challenges and contribute positively to every
+        opportunity that comes my way.
+      </p>
+      <p>
+        Today, my goal is to combine my web development skills with my passion
+        for process optimization. I am constantly seeking innovative ways to
+        address professional challenges and contribute positively to every
+        opportunity that comes my way.
+      </p>
     </article>
     <section class="cv mt-5">
       <div class="naveur">
@@ -59,7 +58,7 @@ export default {
           <div class="card-body">
             <h5 class="card-title">Matthieu Gravy</h5>
             <p class="card-text">
-              Créateur de pommepatate.be <br />Intégrateur web
+              Web developer
             </p>
 
             <a
@@ -79,7 +78,7 @@ export default {
               'accent accentEducation': activeComponent === 'Scolaire',
             }"
             @click="activeComponent = 'Scolaire'"
-            >Parcours académique</a
+            >Education</a
           >
           <a
             class="nav-link"
@@ -87,13 +86,13 @@ export default {
               'accent accentExperience': activeComponent === 'Experience',
             }"
             @click="activeComponent = 'Experience'"
-            >Expérience professionnelle</a
+            >Work Expriences</a
           >
           <a
             class="nav-link"
             :class="{ 'accentSkills accent': activeComponent === 'Skills' }"
             @click="activeComponent = 'Skills'"
-            >Compétences en programmation web</a
+            >Skills</a
           >
         </nav>
       </div>

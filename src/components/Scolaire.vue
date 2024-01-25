@@ -10,12 +10,8 @@ import BookIcon from "./icons/IconBook.vue";
       <BookIcon />
     </template>
     <template #years><span class="bleu-color">2018 à 2020</span></template>
-    <template #heading>Bachelier en e-business <span>Ephec</span></template>
-    <h5>Choix éclairé : développer mes compétences</h5>
-    <p>
-      Bien que l'enseignement ne me convenait pas, j'ai exploré d'autres voies
-      pour atteindre mes objectifs de développement de compétences.
-    </p>
+    <template #heading>Bachelor's degree in e-business <span>Ephec</span></template>
+    <p>Interrupted</p>
   </CvItem>
   <CvItem>
     <template #icon>
@@ -23,13 +19,9 @@ import BookIcon from "./icons/IconBook.vue";
     </template>
     <template #years><span class="bleu-color">2017 à 2018</span></template>
     <template #heading
-      >Bachelier en sociologie et anthropologie <span>ULB</span></template
+      >Bachelor's degree in Sociology and Anthropology <span>ULB</span></template
     >
-    <h5 class="">Un choix de cœur</h5>
-    <p>
-      Bien que j'aie apprécié cette expérience, je n'ai pas réellement trouvé de
-      compétences à développer pour mon futur emploi.
-    </p>
+    <p>Interrupted</p>
   </CvItem>
   <CvItem>
     <template #icon>
@@ -37,11 +29,7 @@ import BookIcon from "./icons/IconBook.vue";
     </template>
     <template #years><span class="bleu-color">2014 à 2017</span></template>
     <template #heading>CESI & CESS <span>IJJ</span></template>
-    <h5>Au-delà des défis : Mon parcours après des échecs</h5>
-    <p>
-      j'ai surmonté les défis de la défaite après avoir quadruplé et triplé. Il
-      n'est jamais trop tard.
-    </p>
+    <p>completed</p>
   </CvItem>
   <CvItem>
     <template #icon>
@@ -49,10 +37,6 @@ import BookIcon from "./icons/IconBook.vue";
     </template>
     <template #years><span class="bleu-color">... à 2009</span></template>
     <template #heading>sans diplôme <span>IJJ</span></template>
-    <h5>Oser le monde du travail : Mon choix après l'échec scolaire</h5>
-    <p>
-      En 2009, je n'étais pas assez régulier en cours. Puis, j'ai pris mon
-      courage à deux main pour tenter ma chance dans le monde du travail
-    </p>
+    <p>Interrupted</p>
   </CvItem>
 </template>
